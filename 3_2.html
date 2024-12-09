@@ -21,20 +21,30 @@
             padding: 20px 40px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
             max-width: 600px;
+            position: relative;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 70px; /* Tamaño ajustado del logo */
+            height: auto;
         }
 
         h1 {
-            color: #457eda !important; /* Fuerza el color celeste */
+            color: #457eda; /* Título en celeste */
             font-size: 1.8em;
             margin-bottom: 15px;
             font-weight: bold;
+            text-align: center; /* Mantener título centrado */
         }
 
         .content p {
             line-height: 1.6;
             color: #555555;
+            text-align: left; /* Alineación izquierda para el resto del contenido */
         }
 
         .content strong {
@@ -44,6 +54,9 @@
 </head>
 <body>
     <div class="content">
+        <!-- Logo en la esquina superior derecha -->
+        <img src="image_mhgap.png" alt="Logo mhGAP" class="logo">
+
         <h1>
             Monitoreo de implementación del Programa mhGAP
         </h1>
@@ -51,7 +64,7 @@
             <strong>3.2) Consultas que se realizan por problemáticas de salud mental, neurológicas y por consumo de sustancias, en los efectores del primer nivel de atención (PNA) que implementan el programa mhGAP:</strong>
         </p>
         <p>
-            Se refiere a la<strong> cantidad de consultas registradas por problemáticas de salud mental</strong>, neurológicas y por consumo de sustancias en los efectores del PNA que implementan el programa mhGAP, <strong>ya sea por primera vez o no.</strong>
+            Se refiere a la <strong>cantidad de consultas registradas por problemáticas de salud mental</strong>, neurológicas y por consumo de sustancias en los efectores del PNA que implementan el programa mhGAP, <strong>ya sea por primera vez o no.</strong>
         </p>
     </div>
 </body>
